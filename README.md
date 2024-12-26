@@ -1,7 +1,7 @@
 # Country Database
 A comprehensive repository of global country details, including country codes, ISD codes, currency codes, and more. 
 
-![country-database](country-database.png)
+![country-database](docs/images/country-database.png)
 
 ## 🌐Country Codes
 - Alpha2Code

@@ -11,7 +11,7 @@ setup(
     description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sivakumar-mahalingam/country-database/",
+    url="https://github.com/sivakumar-mahalingam/country-db/",
     project_urls={
         'Source': 'https://github.com/sivakumar-mahalingam/country-db',
         'Tracker': 'https://github.com/sivakumar-mahalingam/country-db/issues',

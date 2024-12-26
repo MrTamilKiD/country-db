@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as f:
 
 
 setup(
-    name="country-database-py",
+    name="country-db",
     version="1.0",
     author=["Sivakumar Mahalingam", "Sabarinath Velayudham"],
     description="",
@@ -13,8 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/sivakumar-mahalingam/country-database/",
     project_urls={
-        'Source': 'https://github.com/sivakumar-mahalingam/country-database',
-        'Tracker': 'https://github.com/sivakumar-mahalingam/country-database/issues',
+        'Source': 'https://github.com/sivakumar-mahalingam/country-db',
+        'Tracker': 'https://github.com/sivakumar-mahalingam/country-db/issues',
     },
     python_requires=">=3.8",
     install_requires=[

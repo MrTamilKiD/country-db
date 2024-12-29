@@ -33,7 +33,7 @@ class CountryDB:
         with open(data_file, 'r', encoding='utf-8') as f:
             return json.load(f)
 
-    def get(self, **kwargs) -> Optional[Dict[str, Any]]:
+        def get(self, **kwargs) -> List[Dict[str, Any]]:
         """
         Get country information based on provided parameters.
 
@@ -42,7 +42,8 @@ class CountryDB:
                      See _field_mapping for all supported parameters.
 
         Returns:
-            Dict[str, Any] | None: Country information if found, None otherwise
+            List[Dict[str, Any]]: List of country information dictionaries that match the criteria.
+            Returns an empty list if no matches are found.
 
         Raises:
             ValueError: If no search parameter is provided or if an invalid parameter is used
@@ -50,13 +51,16 @@ class CountryDB:
         if not kwargs:
             raise ValueError("At least one search parameter must be provided")
 
+        results = []
         for param, value in kwargs.items():
             if param not in self._field_mapping:
                 raise ValueError(f"Invalid parameter: {param}")
 
             field_name = self._field_mapping[param]
-            for country in self._data:
-                if str(country.get(field_name, '')).lower() == str(value).lower():
-                    return country
+            results = [
+                country for country in self._data
+                if str(country.get(field_name, '')).lower() == str(value).lower()
+            ]
+            break  # Only use the first parameter for searching
 
-        return None
+        return results

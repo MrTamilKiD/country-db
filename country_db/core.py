@@ -33,7 +33,7 @@ class CountryDB:
         with open(data_file, 'r', encoding='utf-8') as f:
             return json.load(f)
 
-        def get(self, **kwargs) -> List[Dict[str, Any]]:
+    def get(self, **kwargs) -> List[Dict[str, Any]]:
         """
         Get country information based on provided parameters.
 

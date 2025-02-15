@@ -74,6 +74,7 @@ pip install country-db
 - [ ] Include Usage/Example in README
 - [ ] Add wiki page
 - [ ] Add documentation page
+- [ ] Add FlagImage
 
 ## 🤝 Contributing
 

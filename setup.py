@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as f:
 
 setup(
     name="country-db",
-    version="1.0",
+    version="1.0.1",
     author= "Sivakumar Mahalingam, Sabarinath Velayudham",
     description="A comprehensive repository of global country details, including country codes, ISD codes, currency codes, and more.",
     long_description=long_description,

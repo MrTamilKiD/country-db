@@ -64,15 +64,11 @@ _**Source:** [Openmoji](https://openmoji.org/library/)_
 
 ## ⚙️Installation
 
-Install `country-db` using pip:
+Install `country-db` 
 ```bash
 pip install country-db
 ```
 
-or conda:
-```bash
-conda install -c conda-forge country-db
-```
 ## ✅ToDo
 
 - [ ] Include Usage/Example in README

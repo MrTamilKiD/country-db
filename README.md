@@ -7,7 +7,7 @@
 [![PyPI](https://img.shields.io/pypi/v/country-db.svg?logo=pypi&logoColor=959DA5&color=blue)](https://pypi.org/project/country-db/)
 
 <a href="https://github.com/sivakumar-mahalingam/country-db/" target="_blank">
-    <img src="https://raw.githubusercontent.com/sivakumar-mahalingam/country-db/main/docs/images/country-database.png" target="_blank" />
+    <img src="https://raw.githubusercontent.com/sivakumar-mahalingam/country-db/main/docs/images/country-db-banner.png" target="_blank" />
 </a>
 
 A comprehensive repository of global country details, including country codes, ISD codes, currency codes, and more. 

@@ -280,7 +280,7 @@
         "FlagUnicode": "U+1F1E6 U+1F1FC"
     },
     {
-        "CountryName": "Åland Islands",
+        "CountryName": "Aland Islands",
         "Alpha2Code": "AX",
         "Alpha3Code": "ALA",
         "NumericCode": "248",
@@ -1581,7 +1581,7 @@
         "FlagUnicode": "U+1F1EC U+1F1E6"
     },
     {
-        "CountryName": "United Kingdom of Great Britain and Northern Ireland",
+        "CountryName": "United Kingdom",
         "Alpha2Code": "GB",
         "Alpha3Code": "GBR",
         "NumericCode": "826",
@@ -4808,7 +4808,7 @@
         "FlagUnicode": "U+1F1FA U+1F1F2"
     },
     {
-        "CountryName": "United States of America",
+        "CountryName": "United States",
         "Alpha2Code": "US",
         "Alpha3Code": "USA",
         "NumericCode": "840",

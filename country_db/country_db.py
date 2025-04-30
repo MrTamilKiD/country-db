@@ -64,3 +64,37 @@ class CountryDB:
             break  # Only use the first parameter for searching
 
         return results
+    
+    def get_all(self) -> List[Dict[str, Any]]:
+        """Get all country information.
+
+        Returns:
+            List[Dict[str, Any]]: List of all country information dictionaries.
+        """
+        return self._data
+    
+    def get_by_alpha2_code(self, alpha2_code: str) -> Optional[Dict[str, Any]]:
+        """
+        Get country information by alpha-2 code.
+
+        Args:
+            alpha2_code (str): The alpha-2 code of the country.
+
+        Returns:
+            Optional[Dict[str, Any]]: Country information dictionary if found, None otherwise.
+        """
+        result = self.get(alpha2_code=alpha2_code)
+        return result[0] if result else None    
+    
+    def get_by_calling_code(self, calling_code: str) -> Optional[Dict[str, Any]]:
+        """
+        Get country information by calling code.
+
+        Args:
+            calling_code (str): The calling code of the country.
+
+        Returns:
+            Optional[Dict[str, Any]]: Country information dictionary if found, None otherwise.
+        """
+        result = self.get(calling_code=calling_code)
+        return result[0] if result else None
